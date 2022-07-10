@@ -1,0 +1,86 @@
+ .generate{
+    margin : 0 auto;
+    width: 1000px;
+    height:60vh;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+     margin-top: 2%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     width: 20% ;
+     height: 50%;
+}
+.top-input , .bottom-input {
+    width: 180px;
+    height: 20px;    
+   
+}
+
+input[type=text]{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+   }
+
+   .input-container button{
+      width: 100px;
+      height: 25px;
+      border-radius: 7px;
+
+   }
+
+
+
+.meme-content{
+    height: 100%;
+    width: 80% ;
+    border-left: 2px solid #000;
+    
+    }
+
+.meme-content .img {
+    width: 70%;
+    height: 400px;
+    position: relative;
+    left: 5%;
+}
+
+
+.meme-content .img img {
+    position: absolute;
+    transform:translate(-30%,15%);
+    width: 500px;
+    height: 400px;
+   
+}
+
+h2.oben {
+    font-weight: 900;
+    color: #000;
+    position: absolute;
+    z-index: 15;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 30px;
+    left: 50%;
+    top: 2%;
+}
+
+
+h2.unten {
+    font-weight: 900;
+    color: #000;
+    position: absolute;
+    z-index: 15;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 30px;
+    left: 50%;
+    bottom: -35%;
+    
+}
